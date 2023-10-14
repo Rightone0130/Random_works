@@ -1,10 +1,12 @@
 
 import './App.css';
+import Header from './componenets/header/Header';
 
 function App() {
   return (
    <>
-   <h1>MAY DAY</h1>
+   <Header/>
+   <h1>MAY DAYy</h1>
    </>
   );
 }
