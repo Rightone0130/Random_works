@@ -5,9 +5,7 @@ import './landingPage.css'; // Import your CSS file
 function LandingPage() {
   return (
     <div className="landing-page">
-      <header className="header">
-        <h1>Welcome to Cool Entertainment</h1>
-      </header>
+      
       <main>
         <section className="hero">
           <h2>Experience Unforgettable Events with Us</h2>

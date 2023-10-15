@@ -3,12 +3,7 @@
     text-align: center;
   }
   
-  .header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-  }
-  
+
   .hero {
     background-image: url('https://res.cloudinary.com/dcntmhgwf/image/upload/v1697371525/Cool%20entertainment/cool_entertainment_ushers_rapping_daddy_tsbdsc.jpg');
     background-size: cover;
@@ -41,11 +36,5 @@
     background-color: #f9f9f9;
     padding: 40px;
     text-align: center;
-  }
-  
-  .footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
   }
   
