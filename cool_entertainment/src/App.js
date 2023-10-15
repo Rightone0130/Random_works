@@ -1,12 +1,16 @@
 
 import './App.css';
-import Header from './componenets/header/Header';
+import Footer from './componenets/footer/footer';
+import Header from './componenets/header/header';
+import LandingPage from './componenets/landingPage/landingPage';
 
 function App() {
   return (
    <>
    <Header/>
-   <h1>MAY DAYy</h1>
+   <LandingPage/>
+   <Footer/>
+   
    </>
   );
 }

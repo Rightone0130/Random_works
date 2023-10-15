@@ -1,0 +1,51 @@
+
+.landing-page {
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .hero {
+    background-image: url('https://res.cloudinary.com/dcntmhgwf/image/upload/v1695246765/Zuri-HNG/hi-tech-fotoapparat-obektiv-temnii-chernii-154602_1_mmh6ej.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 80px;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  
+  .btn-primary {
+    background-color: #f06;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .about {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
