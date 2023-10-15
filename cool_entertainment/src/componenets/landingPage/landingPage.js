@@ -6,7 +6,7 @@ function LandingPage() {
   return (
     <div className="landing-page">
       <header className="header">
-        <h1>Welcome to Your Event Company</h1>
+        <h1>Welcome to Cool Entertainment</h1>
       </header>
       <main>
         <section className="hero">
