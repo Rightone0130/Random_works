@@ -58,6 +58,8 @@ const CountdownTimer = () => {
           <span>{seconds}</span> Seconds
         </div>
       </div>
+      <div className='see__details'>See event attendees here. </div>
+      <a className='check'> Check</a>
     </CountdownContainer>
     </div>
   );

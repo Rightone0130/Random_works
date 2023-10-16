@@ -1,19 +1,6 @@
 import React, { useState } from 'react';
 import './header.css'
-
-
-// const Header = () => {
-//     return(
-//         <>
-       
-//        <header className="header">
-//         <h1>Welcome to Cool Entertainment</h1>
-//       </header>
-//         </>
-//     )
-// }
-
-// export default Header
+import { Link } from 'react-router-dom';
 
 
 
@@ -29,7 +16,7 @@ const Header = () => {
         <div className="logo"><a href="/"><img width={70} src='https://res.cloudinary.com/dcntmhgwf/image/upload/v1697381606/Cool%20entertainment/IMG-20221116-WA0023_k4ep9i.jpg'/></a></div>
         <nav className={`nav ${isMobileNavOpen ? 'open' : ''}`}>
           <a href="/">Home</a>
-          <a href="/">Events</a>
+          <Link to="/events"> <a href="/">Events</a> </Link>
           <a href="/">About</a>
           <a href="/">Services</a>
           <a href="/">Contact</a>
