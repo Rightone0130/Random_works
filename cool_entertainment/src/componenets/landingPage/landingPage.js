@@ -9,7 +9,7 @@ function LandingPage() {
       <main>
         <section className="hero">
           <h2>Experience Unforgettable Events with Us</h2>
-          <p>Your one-stop solution for amazing events!</p>
+          <p className='hero__tag'>Your one-stop solution for amazing events!</p>
           {/* <Link to="/events" className="btn-primary">Explore Events</Link> */}
         </section>
         <section className="about">

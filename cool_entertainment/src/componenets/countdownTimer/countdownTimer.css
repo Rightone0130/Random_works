@@ -1,0 +1,28 @@
+.countdown__main {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(60deg, #ffab87, #FF7A40);
+}
+.countdown {
+  font-size: 1.5em;
+  font-weight:500; 
+  border: 5px solid #FF7A40;
+  border-radius: 0.4em;
+  padding: 1em;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 500px) {
+    .countdown {
+      flex-direction: column;
+      font-size: 1.5em;
+      font-weight:500; 
+      border: 5px solid #FF7A40;
+      border-radius: 0.4em;
+      padding: 1em;
+      box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.6);
+    }
+  }
+  
