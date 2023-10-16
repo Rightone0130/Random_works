@@ -25,6 +25,7 @@
   font-weight:500;
   transition:100ms ease-out ;
   color: rgb(48, 50, 51);
+  user-select: none;
 }
 .check:hover{
   background-color: transparent;

@@ -14,7 +14,7 @@ function App() {
             <Routes>
                 <Route index element={<LandingPage/>}></Route>
                 <Route path="/Events" element={<Events/>}></Route>
-                <Route path="/rightpics/SignUp" element={<></>}></Route>
+                <Route path="/About" element={<></>}></Route>
                 <Route path="/*" element={<>Error Page</>}></Route>
             </Routes>
            <Footer/>
