@@ -11,6 +11,8 @@ const EventAttenders = () => {
         <>
         <div className="eventAttenderx">
             <h1>Attendees</h1>
+
+            
             <div className="card__container">
             <div className="cards">
                 <div className="image__container">
@@ -22,13 +24,8 @@ const EventAttenders = () => {
                     <div className="card__details">
                         <div className="name">Ralph O. Ayilara </div>
                         <div className="details">President Miss Cool & Classic Nigeria <br/><small>[Event Mgt & Planning] </small> </div>
-
-
                     </div>
-
                 </div>
-
-
             </div>
             </div>
 
