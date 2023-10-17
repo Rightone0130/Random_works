@@ -5,6 +5,7 @@ import Footer from './componenets/footer/footer';
 import Header from './componenets/header/header';
 import LandingPage from './componenets/landingPage/landingPage';
 import Events from "./componenets/Events/events";
+import EventAttenders from "./componenets/eventAttenders/eventAttenders";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
                 <Route index element={<LandingPage/>}></Route>
                 <Route path="/Events" element={<Events/>}></Route>
                 <Route path="/About" element={<></>}></Route>
+                <Route path="/Attenders" element={<EventAttenders/>}></Route>
                 <Route path="/*" element={<>Error Page</>}></Route>
             </Routes>
            <Footer/>

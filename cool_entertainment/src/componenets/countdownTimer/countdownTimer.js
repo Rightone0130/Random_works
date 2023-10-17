@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { format, differenceInMilliseconds } from 'date-fns';
 import styled from 'styled-components';
 import './countdownTimer.css'
+import { Link } from 'react-router-dom';
 
 const CountdownContainer = styled.div`
   text-align: center;
@@ -58,8 +59,11 @@ const CountdownTimer = () => {
           <span>{seconds}</span> Seconds
         </div>
       </div>
-      <div className='see__details'>See event attendees here. </div>
-      <a className='check'> Check</a>
+          <div className='see__details'>See event attendees here. </div>
+          <Link style={{textDecoration : 'none'}} to="/Attenders">  
+      <a style={{textDecoration : 'none'}}  className='check'> Check</a>
+      </Link>
+
     </CountdownContainer>
     </div>
   );

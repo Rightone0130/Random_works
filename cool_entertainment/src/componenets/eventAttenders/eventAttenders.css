@@ -1,0 +1,61 @@
+.eventAttenderx{
+    min-height: 70vh;
+    /* background-color: #333; */
+    background-color:  #FF7A40;
+    padding: 4em;
+  
+}
+
+.card__container{
+    display: flex;
+
+
+
+}
+.card__detailsContainer{
+    position: relative;
+}
+
+.cards{
+    background-color: white;
+    padding: 2em 1.3em;
+    min-height: 30em;
+    max-height: 30em;
+    max-width: 20em;
+    min-width: 20em;
+}
+
+
+
+.image__container{
+    background-color: #e3e3e3 ;
+    min-height: 19em;
+    max-height: 19em;
+    overflow: hidden;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    
+}
+.card__image{
+    margin-top: 5em;
+    
+}
+
+.card__details{
+    background-color: white ;
+    padding: 2.5em;
+    text-align: center;
+    margin-top: -2em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    z-index: 2000000;
+    position: absolute;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 1.3em;
+    margin-bottom: 0.8em;
+    overflow:hidden ;
+}
