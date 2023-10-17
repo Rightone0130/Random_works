@@ -1,13 +1,15 @@
 .eventAttenderx{
     min-height: 70vh;
     background-color:  #FF7A40;
-    padding: 10%;
+    padding: 8%;
     overflow-x: hidden;
   
 }
 
 .card__container{
     display: flex;
+    flex-wrap: wrap;
+    /* width: 100%; */
 }
 
 .card__detailsContainer{
@@ -22,6 +24,8 @@
     min-width: 20%;
     overflow: hidden;
     margin-bottom: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
 }
 
 
