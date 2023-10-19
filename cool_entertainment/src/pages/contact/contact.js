@@ -4,8 +4,17 @@ import React from "react";
 
 
 
-const AboutUs = () =>
+
+
+
+
+
+
+
+const Contact = () =>
 {
+
+
 
     return(
 
@@ -19,4 +28,5 @@ const AboutUs = () =>
 
 
 
-export default AboutUs;
+
+export default Contact;
