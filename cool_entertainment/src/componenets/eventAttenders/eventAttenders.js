@@ -201,6 +201,21 @@ const EventAttenders = () => {
             </div>
 
 
+            <div className="cards">
+                <div className="image__container">
+
+                    <img style={{zIndex: 1, marginTop:'6em' }} className="card__image" width={300} src="https://res.cloudinary.com/dcntmhgwf/image/upload/v1697878454/Cool%20entertainment/IMG-20231020-WA0013_22-removebg-preview_hab9s3.png"/>
+                </div>
+
+                <div className="card__detailsContainer">
+                    <div className="card__details">
+                        <div className="name">JBOYSINGS</div>
+                        <div className="details">Verified </div>
+                     </div>
+                </div>
+            </div>
+
+
 
 
             
